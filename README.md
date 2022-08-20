@@ -16,3 +16,4 @@ Do the following:
 4. key generate -- ssh-keygen
 5. ssh-copy-id -i root@pvt_ip
 6. Make the similar connection between jenkins and ansible...
+..
