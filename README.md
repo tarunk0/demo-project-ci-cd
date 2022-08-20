@@ -1,5 +1,5 @@
 # demo-project-ci-cd
-A complete CI/CD pipeline using ansible git github jenkins ..
+A complete CI/CD pipeline using ansible git github jenkins ....
 
 Events of actions:
 1. The code is firstly pushed to the github. Github is inegrated with jenkins, as soon as the code is changed and pushed to the main branch, the job is triggered on jenkins.
