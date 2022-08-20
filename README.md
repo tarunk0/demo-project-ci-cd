@@ -15,4 +15,4 @@ Do the following:
 2. make the connection between client and server password less between ansible and nodes. using ssh-keygen and then copying ssh key to hosts. Allow root login in nodes by going inside vim /etc./ssh/sshd_onfig set password of root using --- passwd root
 4. key generate -- ssh-keygen
 5. ssh-copy-id -i root@pvt_ip
-6. Make the similar connection between jenkins and ansible..
+6. Make the similar connection between jenkins and ansible...
