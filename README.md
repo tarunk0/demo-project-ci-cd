@@ -1,4 +1,4 @@
-# demo-project-ci-cd
+ ## demo-project-ci/cd
 A complete CI/CD pipeline using ansible git github jenkins .....
 
 Events of actions:
@@ -17,3 +17,5 @@ Do the following:
 5. ssh-copy-id -i root@pvt_ip
 6. Make the similar connection between jenkins and ansible...
 ..
+7. publish over ssh plugin is needed to copy the files from one server to another like in this case we have to copy the files from jenkins to ansible using rsync -avh /var/lib/jenkins/workspace/<project name>/*.html root@<ansiblepvtip>:/opt/index.html
+8. then from ansible, we have run the playbook to configure the webserver.. cmd: ansible-playbook /sourcecode/paybook.yaml
